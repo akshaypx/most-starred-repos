@@ -1,0 +1,17 @@
+{
+  "name": "most-starred-repos",
+  "version": "1.0.0",
+  "description": "A node js app which takes in two dates and returns all the most starred github repositories in that range.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8"
+  }
+}
